@@ -1,5 +1,5 @@
 {
-  "id": "8b969477-d397-4181-b12a-3e3720128471",
+  "id": "9ac9c8ae-df7e-43e7-ba37-aa88eb35e216",
   "name": "CRONUS Fragt",
   "publisher": "Cronus",
   "version": "1.0.0.0",
@@ -13,19 +13,28 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "29.0.0.0",
   "idRanges": [
     {
       "from": 50100,
       "to": 50149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "ae25a7b4-8bde-4816-aae8-f57eee72f799",
+      "name": "MB820-Cronus-Fragt-Test",
+      "publisher": "Cronus"
+    }
+  ]
 }
